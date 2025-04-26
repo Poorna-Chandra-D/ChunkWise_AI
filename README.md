@@ -24,3 +24,31 @@ Stay tuned. In this mini-series, I’ll walk you through the entire dev journey�
 #LLM #Langchain #VectorSearch #AIChatbot #SemanticSearch
 
 ![image](https://github.com/user-attachments/assets/c19e25a0-dd9c-4c59-93ae-95477bc6da1c)
+
+Day2 of the project.
+
+🚀 What Powers an Intelligent Chatbot? Let’s Break It Down.
+
+When you ask an AI a smart question, there’s an entire hidden engine working behind the scenes.
+
+For my project, I designed a simple but powerful AI knowledge engine made of these moving parts:
+
+🔹 Load Documents → Bring in raw content
+🔹 Chunk & Split → Break it into smaller, meaningful pieces
+🔹 Embed → Turn those pieces into numbers (vectors!)
+🔹 Vector Store (FAISS) → Save them smartly for lightning-fast search
+🔹 Retriever → Grab only the relevant chunks for your question
+🔹 LLM (OpenAI) → Generate a focused, clear answer
+🔹 Chatbot UI (React/Streamlit) → Show you the final magic 💬
+
+Every piece has a reason.
+Without proper chunking, we overfeed the LLM.
+Without semantic search, answers become random.
+
+Tomorrow, I’ll dive deeper into how we split and embed documents like a pro.
+
+👀 Here’s the roadmap visual for today—makes it way easier to understand 👇
+
+#AI #LLM #Langchain #VectorSearch #OpenAI #ReactJS #Streamlit #DeveloperJourney
+
+![image](https://github.com/user-attachments/assets/7b6a347b-5a36-464d-94e0-6153e75e7e91)
