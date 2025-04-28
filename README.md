@@ -52,3 +52,25 @@ Tomorrow, I’ll dive deeper into how we split and embed documents like a pro.
 #AI #LLM #Langchain #VectorSearch #OpenAI #ReactJS #Streamlit #DeveloperJourney
 
 ![image](https://github.com/user-attachments/assets/7b6a347b-5a36-464d-94e0-6153e75e7e91)
+
+🧠 Turning Big Documents into Bite-Sized Intelligence
+
+Imagine throwing a full 50-page article into a chatbot — without overwhelming it.
+That’s where smart chunking comes in.
+
+In this project, we don’t just cut text randomly.
+We split it strategically to keep meaning intact.
+⚙️ Here's how the process flows:
+1. Load Content: Use LangChain’s TextLoader or UnstructuredURLLoader.
+2. Naive Split? No thanks: Simple slicing cuts words awkwardly.
+3. Recursive Splitting: Enter RecursiveCharacterTextSplitter!
+ It tries to split by:
+Paragraphs → Sentences → Words → Characters — keeping chunks balanced and readable.
+
+✅ This ensures that:
+Each chunk stays within token limits,
+Context isn’t lost,
+And we feed the LLM only what matters.
+
+Tomorrow, I’ll show how these smart chunks are transformed into vectors and stored for lightning-fast semantic search.
+
