@@ -77,5 +77,6 @@ Tomorrow, I’ll show how these smart chunks are transformed into vectors and st
 Here’s a visual of today’s pipeline 👇
 hashtag#SemanticSearch hashtag#LLM hashtag#LangChain hashtag#DocumentProcessing hashtag#ChunkWiseAI
 
+![image](https://github.com/user-attachments/assets/dc1d29e8-775b-4f0d-b093-50b849c61871)
 
 
