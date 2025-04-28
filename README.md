@@ -74,3 +74,8 @@ And we feed the LLM only what matters.
 
 Tomorrow, I’ll show how these smart chunks are transformed into vectors and stored for lightning-fast semantic search.
 
+Here’s a visual of today’s pipeline 👇
+hashtag#SemanticSearch hashtag#LLM hashtag#LangChain hashtag#DocumentProcessing hashtag#ChunkWiseAI
+
+
+
