@@ -79,4 +79,35 @@ hashtag#SemanticSearch hashtag#LLM hashtag#LangChain hashtag#DocumentProcessing 
 
 ![image](https://github.com/user-attachments/assets/dc1d29e8-775b-4f0d-b093-50b849c61871)
 
+📦 Turning Text into Math: The Power of Embeddings
+
+Now that we’ve split our documents into smart chunks… how does AI actually understand them?
+
+Welcome to Embeddings — the secret sauce of semantic search.
+
+
+🔍 Instead of comparing words literally, we transform them into vectors —number-based representations that capture meaning and context.
+
+🧬 For example:
+
+“iPhone review” and “Apple product feedback” may look different as text...
+
+…but embeddings bring them closer in vector space 🌌
+
+Here’s what I used: 
+
+✅ Model: all-MiniLM-L6-v2 via SentenceTransformers
+
+✅ Database: FAISS – a fast similarity search engine by Facebook
+
+✅ Why FAISS? It indexes vectors to help us instantly retrieve the most relevant chunks when a question is asked.
+
+
+Tomorrow, we go full circle: how LLMs use these vectors to craft responses — fast, smart, and cost-effective.
+
+🎯 Visual breakdown of today’s concept 👇
+
+#Embeddings #VectorSearch #FAISS #LLM #AIpipeline #LangChain #ChunkWiseAI
+![image](https://github.com/user-attachments/assets/0e0d8210-9579-4e71-bea3-1aacc383d3d0)
+
 
