@@ -110,4 +110,50 @@ Tomorrow, we go full circle: how LLMs use these vectors to craft responses — f
 #Embeddings #VectorSearch #FAISS #LLM #AIpipeline #LangChain #ChunkWiseAI
 ![image](https://github.com/user-attachments/assets/0e0d8210-9579-4e71-bea3-1aacc383d3d0)
 
+💬 How I Built a Chatbot That Thinks Before It Speaks
+
+We’ve chunked the docs.
+Embedded their meaning.
+Indexed them in a vector database.
+Now what?
+
+We bring it all together in an intelligent chatbot that can understand your questions and retrieve just the right knowledge.
+
+⚙️ Here's how it works:
+
+You ask a question.
+
+The chatbot converts it into a vector using embeddings.
+
+It searches the FAISS index for semantically similar chunks.
+
+The LLM reads only those — and gives a smart, cost-efficient reply.
+
+Bonus:
+✅ We avoid token overload using Map-Reduce or Refine methods for long contexts.
+✅ Memory lets the bot remember past queries to maintain conversation flow.
+
+🚀 It’s like ChatGPT, but with your own data — deeply integrated, hyper-relevant, and blazing fast.
+
+📦 Built with:
+
+LangChain
+
+FAISS
+
+OpenAI
+
+Streamlit (UI)
+
+React frontend (coming soon…)
+
+Check out this final roadmap of the full pipeline 👇
+
+#AIchatbot #LangChain #SemanticSearch #FAISS #LLM #Streamlit #ChatWithDocs #ChunkWiseAI
+
+![image](https://github.com/user-attachments/assets/d0fad1c1-d578-4155-8586-12e8f5bb65d3)
+
+
+
+
 
