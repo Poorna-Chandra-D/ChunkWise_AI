@@ -145,7 +145,7 @@ OpenAI
 
 Streamlit (UI)
 
-React frontend (coming soon…)
+React frontend (coming soon)
 
 Check out this final roadmap of the full pipeline 👇
 
