@@ -178,7 +178,8 @@ Let you ask anything, and get contextual, fast responses
 🎯 Key Takeaway:
 You don't need to be an AI researcher to build powerful tools — just the right architecture, creativity, and motivation.
 
-👨‍💻 Full code is now on GitHub → (Link in comments)
+👨‍💻 Full code is now on GitHub → [https://github.com/Poorna-Chandra-D/ChunkWise_AI.git](https://github.com/Poorna-Chandra-D/ChunkWise_AI)
+
 This wraps up the “Chat With Docs” dev series — but new experiments are on the way.
 
 🙌 Thanks for following along! Drop a 🔥 if you'd try building something similar!
