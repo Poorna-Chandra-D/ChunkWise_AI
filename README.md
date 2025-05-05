@@ -185,9 +185,7 @@ This wraps up the “Chat With Docs” dev series — but new experiments are on
 
 #AI #Chatbot #LLM #LangChain #SemanticSearch #OpenAI #FAISS #Streamlit #DevJourney
 
-
-
-
+![image](https://github.com/user-attachments/assets/10a950dc-690c-4fb4-98cf-8138c458488e)
 
 
 # ChunkWise_AI: News Research Tool 
