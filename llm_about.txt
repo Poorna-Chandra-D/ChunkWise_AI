@@ -1,0 +1,43 @@
+Langchain 🦜 is one of the fastest growing open source projects in history, in large part due to the explosion of interest in LLM’s.
+
+This post explores some of the cool thing that langchain helps developers do from a 30,000 foot overview. It was written for my own benefit as I explored the framework and I hope it helps you if you are also curios where langchain might be useful.
+
+Some of the features that make langchain so powerful include allowing you to connect data to language models (like OpenAI’s GPT models via the API) and create agent workflows (more on agents later).
+
+[Quick disclaimer: this post represented my personal view, not my employers (shocking, I know). It was also written on my phone while on a 10 hour sleep deprived car ride so please excuse any silly mistakes 😅]
+
+Why does langchain exist? 🤔
+Simply put, there are many rough edges to working with languages models today. The entire ecosystem is still developing so for developers, there is generally a lack of sufficient tooling to make production deployments of languages models.
+
+Tasks like prompt chaining, logging, call backs, persistent memory, and efficient connections to multiple data sources come standard out of the box with langchain.
+
+Langchain also provides a model agnostic toolset that enables companies and developers to explore multiple LLM offerings and test what works best for their use cases. The best part is that you can do this in a single interface instead of having to linearly scale the size of a code base which each additional provider you try to support.
+
+Langchain’s community ⭐️
+One of the core things to look at when evaluating a tool is the community built around it. This is even more so true for open source projects like langchain. As of today, the project has over 51k stars on GitHub (a metric often used to assess the popularity of an open source project), 1 million downloads a month, and an active Discord / Twitter presence.
+
+Langchain also recently hit the 1,000 contributor milestone on their core repository which is a feat that few repository’s have accomplished and speaks to the openness of the projects as well as its long term viability. Langchain even uses the popular MIT license which allows developers to fork the code base and make their own version or even developer commercial products on top of the existing code.
+
+Agents in Langchain 🤖
+One of the hottest ideas in the large language models space right now is the idea of agents. By using language models, you can essentially recreate a programmatic entity that has goals and tasks it can execute.
+
+Langchain makes creating agents using large language models simple through their agents API. Developers can use OpenAI functions or other means of executing tasks to enable to language model to take actions.
+
+There are many agent tools out there like AgentGPT and more. So what makes langchain useful in this case? For one, you have access to multiple tooling frameworks using a single interface. Further, you can leverage the plan and execute functionality which allows the model to create plans, execute tasks, and accomplish goals. This is especially useful when you are looking for the agent to become somewhat autonomous and try to accomplish a goal with little to no feedback from a human. While this sounds pretty scary in some contexts, the real impact of it today is pretty minimal given that todays models don’t usually succeed at these tasks over long time horizons (though of course this will get better over time).
+
+Memory with language models 🧠
+Today, the most powerful LLM API is OpenAI’s API. The API is not stateful so each time you sent a request to generate a new chat message, you have to pass back any context that might be necessary to allow the model to answer the query at hand. Developers can do light weight things like store the message history in a Python list or write it to a text file but this doesn’t scale well.
+
+You could also spin up a vector database (special database just for Embeddings which are a numerical way of representing the meaning of text) but this often takes a bit of work. Langchain has a memory module which provides plug and play access to multiple data store which allow you to save the message history of a conversation automatically further reducing the friction to create a chatbot for example.
+
+Langchain currently supports 10 different database integrations with more surely to come soon giving you lots of flexibility in how you want to save message history. I also expect that the options to do this outside langchain will get much better over time as there are already a few open source projects specifically designed to help make the process of managing chat history and truncation simpler.
+
+A quick note on truncation: this is the process of taking the message history and continually narrowing it down in order to stay within the language models context window. There’s lots of different ways of doing it, and in fact ChatGPT has a custom approach, but there is no silver bullet here since you will always end up having to omit important info you care about. This is why Embeddings and memory through langchain can be so useful.
+
+Comparison tools 🔍
+One of the last core parts of langchain I will mention is the ability to dynamically compare models and prompts. This can be extremely useful when trying to assess which model might be better for a specific task. For example, you might want to have multiple GPT 3.5-turbo and GPT-4 models setup twitch different system messages and use the comparison tool to see which output better aligns with your use case. This will take a little bit of work but it’s one of the kalt useful ways to A/B test different setups in a production environment.
+
+Everyone loves prompt engineering. Well, the dirty secret is that no one really like prompt engineering, it’s kind of a hassle. I just want the model to work the way it’s supposed to and do what I want. But life isn’t perfect and sometimes you have to do some of the work yourself. That’s where the evaluator comes in which is part of langchains evaluation module. It has a few different functions for operations like “PairwiseStringEvalChain” (more details in the docs).
+
+They even have a benchmarking template notebook which at first glance appears to be something which I will be using in my own workflows. One quick random thought: the models themselves are usually better at prompt tuning than we are. Sometimes the esoteric, detailed, and clear prompts are not easy for us to come up with but the model can really do a great job. If you are getting stuck with prompting issues, trying asking GPT-4 to improve the prompt iteratively with you.
+
