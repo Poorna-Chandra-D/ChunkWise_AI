@@ -4,7 +4,11 @@
 
 ### Intelligent Document Q&A Powered by Semantic Search
 
-
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-0.0.284-green)](https://www.langchain.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.22-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-0.28-412991?logo=openai&logoColor=white)](https://openai.com/)
+[![FAISS](https://img.shields.io/badge/FAISS-1.7.4-blue)](https://github.com/facebookresearch/faiss)
 
 > **Stop copy-pasting articles into ChatGPT.** ChunkWise AI reads, understands, and answers questions from your own documents — fast, precise, and cost-effective.
 
