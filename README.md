@@ -192,14 +192,13 @@ When you ask a question:
 
 ## 📸 Screenshots
 
-<div align="center">
-
-| Architecture Overview | Chatbot Pipeline |
-|:---:|:---:|
-| ![Architecture](https://github.com/user-attachments/assets/7b6a347b-5a36-464d-94e0-6153e75e7e91) | ![Pipeline](https://github.com/user-attachments/assets/c19e25a0-dd9c-4c59-93ae-95477bc6da1c) |
-
-</div>
 
 ---
+<div align="center">
 
+**Built with ❤️ by [Poorna Chandra D](https://github.com/Poorna-Chandra-D)**
+
+⭐ Star this repo if you find it useful!
+
+</div>
 
