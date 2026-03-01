@@ -202,10 +202,4 @@ When you ask a question:
 
 ---
 
-<div align="center">
 
-**Built with ❤️ by [Poorna Chandra D](https://github.com/Poorna-Chandra-D)**
-
-⭐ Star this repo if you find it useful!
-
-</div>
