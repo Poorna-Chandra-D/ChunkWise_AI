@@ -41,10 +41,7 @@ ChunkWise AI is an intelligent chatbot system that transforms large documents in
 - ❌ Most models choke beyond ~3,000 words
 - ❌ You often need just the right chunk, not the entire article
 
-**The solution:**
-- ✅ Automatically ingest documents and web articles
-- ✅ Semantically split, embed, and index content
-- ✅ Retrieve only what matters and generate focused answers
+
 
 ---
 
