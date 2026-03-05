@@ -18,19 +18,6 @@
 
 ---
 
-## 📑 Table of Contents
-
-- [About](#-about)
-- [How It Works](#%EF%B8%8F-how-it-works)
-- [Features](#-features)
-- [Tech Stack](#%EF%B8%8F-tech-stack)
-- [Getting Started](#-getting-started)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Architecture Deep Dive](#-architecture-deep-dive)
-- [Screenshots](#-screenshots)
-
----
 
 ## 💡 About
 
