@@ -83,14 +83,7 @@ ChunkWise AI is an intelligent chatbot system that transforms large documents in
 
 ## 🛠️ Tech Stack
 
-| Component | Technology |
-|-----------|------------|
-| **Framework** | [LangChain](https://www.langchain.com/) |
-| **LLM** | [OpenAI GPT](https://openai.com/) |
-| **Vector Store** | [FAISS](https://github.com/facebookresearch/faiss) |
-| **Frontend** | [Streamlit](https://streamlit.io/) |
-| **Embeddings** | OpenAI Embeddings |
-| **Document Loader** | LangChain UnstructuredURLLoader |
+
 
 ---
 
